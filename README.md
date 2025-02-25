@@ -1,21 +1,20 @@
 # Amazon Web Scraper 🛒
-
-This project is an **Amazon Web Scraper** that extracts product details such as title, price, ratings, and reviews using Python. It helps users gather data for price comparisons, market research, and tracking product trends.
+## Overview
+This project is a Python-based web scraper that extracts product details from Amazon, including price, ratings, and availability. The scraper helps automate data collection for price tracking, market research, and competitive analysis.
 
 ## 🚀 Features
-- Scrapes product title, price, rating, and number of reviews.
-- Supports multiple product pages.
-- Saves extracted data in CSV format.
-- Uses `BeautifulSoup` and `requests` for web scraping.
+##### ✅ Scrapes product details: Title, price, rating, number of reviews, and availability.
+##### ✅ Automated price tracking: Monitor price fluctuations over time.
+##### ✅ Data storage: Saves extracted data in CSV or Excel format for analysis.
+##### ✅ Error handling: Handles missing data and request failures.
 
-## 🛠 Installation & Requirements
-### Prerequisites:
-Ensure you have **Python 3.x** installed and install the required libraries:
+## Technologies Used
+- Python 🐍
+- BeautifulSoup & Requests – For web scraping
+- Pandas – For data processing and storage
+- Jupyter Notebook – For interactive execution
 
-```bash
-pip install requests beautifulsoup4 pandas
-```
 ## Usage
-a Jupyter Notebook
-```bash
-!python amazon_scraper.py
+- Modify the Amazon product URL in the script.
+- Run the scraper to extract and save product data.
+- Analyze the data for trends, pricing, and availability.
